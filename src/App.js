@@ -11,14 +11,12 @@ import { Route, BrowserRouter } from "react-router-dom";
 import { ApolloClient, InMemoryCache, ApolloProvider } from "@apollo/client";
 import { Order } from "./pages/CheckOut.jsx";
 export const client = new ApolloClient({
-  uri: "/graphql",
+  uri: "https://swback.herokuapp.com/graphql",
   cache: new InMemoryCache(),
 });
 
 export class App extends React.Component {
   render() {
-    // let mRef = (this.ref = React.createRef());
-    // console.log(mRef);
     return (
       <>
         <div ref={this.ref}>
