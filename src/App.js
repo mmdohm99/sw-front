@@ -11,7 +11,7 @@ import { Route, BrowserRouter } from "react-router-dom";
 import { ApolloClient, InMemoryCache, ApolloProvider } from "@apollo/client";
 import { Order } from "./pages/CheckOut.jsx";
 export const client = new ApolloClient({
-  uri: "https://swback.herokuapp.com/graphql",
+  uri: "https://aaaaaback.herokuapp.com/graphql",
   cache: new InMemoryCache(),
 });
 
