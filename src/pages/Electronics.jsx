@@ -2,7 +2,7 @@ import React from "react";
 import { gql } from "@apollo/client";
 import { client } from "../App";
 import { cartContext } from "../Context/Context";
-// import { withRouter } from "react-router-dom";
+
 import { NavLink } from "react-router-dom";
 import classes from "../styles/home.module.css";
 export class Electronics extends React.Component {

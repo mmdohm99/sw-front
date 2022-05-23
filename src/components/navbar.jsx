@@ -45,8 +45,7 @@ export class Navbar extends React.Component {
   render() {
     const {
       addx,
-      clear,
-      remove,
+
       cart,
       setCurrency,
       choosenCurrency,

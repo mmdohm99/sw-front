@@ -42,7 +42,7 @@ export class Clothes extends React.Component {
     `;
     client.query({ query: GET_CLOTHES }).then((res) => {
       const products = res.data.categories[1].products;
-      // console.log(res.data.categories);
+      
       this.setState({ products });
     });
   }

@@ -9,7 +9,7 @@ export class Cart extends React.Component {
   componentDidUpdate() {}
   componentDidMount() {}
   render() {
-    const { clear, remove, cart, addx, decx, choose, choosenCurrency } =
+    const {  remove, cart, addx, decx, choose, choosenCurrency } =
       this.context;
 
     this.componentDidMount = () => {
